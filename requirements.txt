@@ -1,0 +1,50 @@
+# Core Streamlit and data processing
+streamlit==1.45.0
+pandas==2.1.3
+numpy==1.24.3
+plotly==5.17.0
+scipy==1.11.4
+scikit-learn==1.3.2
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# PDF generation
+fpdf2==2.7.6
+python-pptx==0.6.21
+
+# Web scraping and content extraction
+requests==2.31.0
+beautifulsoup4==4.12.2
+readability-lxml==0.8.1
+markdownify==0.11.6
+
+# Browser automation
+playwright==1.40.0
+
+lxml[html_clean]
+openai
+
+# AI/ML services
+openai>=1.0.0
+google-genai==0.3.0
+azure-ai-inference==1.0.0b1
+# azure-core==1.29.5
+
+# Image processing
+Pillow==10.1.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# Additional utilities
+pathlib2==2.3.7
+
+cloudscraper
+############################ REQUIRED FILES FOR MODULES ############################
+# The following files are required for specific modules to function properly.
+# Please ensure these files are present in the appropriate directories.
+# 1. github_storage
+# 2. cta_audit_analyzer  a. get_markdown_screenshot
+# 3. universal_sky_extractor
+# 4. firecrawler
+# 5. 
